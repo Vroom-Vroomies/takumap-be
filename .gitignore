@@ -1,0 +1,42 @@
+# Gradle wrapper 파일은 반드시 포함
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# 빌드 아티팩트 및 폴더 제외
+.gradle
+build/
+out/
+bin/
+
+# Eclipse / STS 관련 설정 파일
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# IntelliJ IDEA 관련 설정 파일
+.idea
+*.iws
+*.iml
+*.ipr
+
+# NetBeans 관련 설정 파일
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# VS Code 관련 설정 파일
+.vscode/
+
+# OS 관련 파일들 (MacOS, Windows)
+.DS_Store
+Thumbs.db
+
+# Log 파일
+*.log
